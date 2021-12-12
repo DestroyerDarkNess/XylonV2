@@ -53,13 +53,14 @@ Thank you for donating. It is helpful to continue to improve the API. <br> <br>
     - <a href="http://example.com" target="_blank">WebBrowser</a> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Incomplete / Early Stage of Development** ```Obtain Information from Browsers. History / Favorites / Cache. It also includes Extensions and all your information.```
   - <a href="http://example.com" target="_blank">Startup Manager</a>  ```Process / Registry / File / Devices Monitor. in real time```
 - [Reporting issues](#reporting-issues)
+- [Contributors](#Contributors)
 
 ### Prerequisites
 
 Make sure to have the following details:
-* API Secret Key (OPTIONAL)
-* .NET Framework (v. >= 4.5, preferably v. >= 4.6)
-* This VB classes
+* API Secret Key (OPTIONAL) 🔑
+* .NET Framework (v. >= 4.5, preferably v. >= 4.6) ✔
+* Your love 💝
 
 
 ## Installation
