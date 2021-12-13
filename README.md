@@ -6,7 +6,7 @@
 
 
 ## Introduction
-Antivirus API that provides many features. It's a remastering of the old [Xylon Antivir Old](hhttps://github.com/DestroyerDarkNess/XylonAntivir) .
+Antivirus API that provides many features. It's a remastering of the old [Xylon Antivir](hhttps://github.com/DestroyerDarkNess/XylonAntivir) .
 
 This Version contains many really useful functions.
 
