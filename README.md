@@ -1,7 +1,7 @@
 # XylonV2
 
 
-<img align="left" width="230" height="250" src="https://i.ibb.co/B3pMppn/Pngtree-antivirus-icon-4351716-burned.png">
+<img align="left" width="240" height="260" src="https://i.ibb.co/B3pMppn/Pngtree-antivirus-icon-4351716-burned.png">
 
 
 
