@@ -71,9 +71,9 @@ First clone the repository
 git clone https://github.com/DestroyerDarkNess/XylonV2.git
 ```
 
-Add Xylonv2 to your Project through Nuget ` `
+Add Xylonv2 to your Project through Package Manager `https://www.nuget.org/packages/XylonV2/ `
 ```
-dotnet install xxx
+Install-Package XylonV2 -Version 1.0.0
 ```
 
 You are now ready to go !
