@@ -60,7 +60,7 @@ Thank you for donating. It is helpful to continue to improve the API. <br> <br>
 
 Make sure to have the following details:
 * API Secret Key (OPTIONAL) 🔑
-* .NET Framework (v. >= 4.5, preferably v. >= 4.6) ✔
+* .NET Framework (v. >= 4.5.2, preferably v. >= 4.6) ✔
 * Your love 💝
 
 
