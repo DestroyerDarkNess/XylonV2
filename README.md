@@ -30,30 +30,31 @@ Thank you for donating. It is helpful to continue to improve the API. <br> <br>
   - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki" target="_blank">WIKI</a>
-  - <a href="http://example.com" target="_blank">Core</a>
-    - <a href="http://example.com" target="_blank">File</a>
-      - <a href="http://example.com" target="_blank">FileDirSearcher</a> ```Searchs for files and directories```
-      - <a href="http://example.com" target="_blank">FileTypeDetective</a> ```Gets information about the binary header at the beginning of the file and Identifies it```
-      - <a href="http://example.com" target="_blank">InfoFile</a> ```Equivalent to System.IO.FileInfo - It is more Extended and Provides more information ```
-    - <a href="http://example.com" target="_blank">Folder</a>
-      - <a href="http://example.com" target="_blank">InfoDir</a> ```Equivalent to System.IO.DirectoryInfo - It is more Extended and Provides more information ```
-    - <a href="http://example.com" target="_blank">Hash</a>
-      - <a href="http://example.com" target="_blank">FileHashCalculator</a> ```Gets the MD5 hash and all SHA types of a file```
-  - <a href="http://example.com" target="_blank">Helper</a>
-    - <a href="http://example.com" target="_blank">Paths</a>  ```Get some generic windows paths```
-    - <a href="http://example.com" target="_blank">Util</a> ```Some Useful Features```
-  - <a href="http://example.com" target="_blank">Malware Naming</a> ```Identifier Generator according to CARO Regulations (Computer Antivirus Research Organization)```
-  - <a href="http://example.com" target="_blank">Engine</a>
-    - <a href="http://example.com" target="_blank">External</a>  ```Wrappers for antivirus solutions and other command line tools```
-    - <a href="http://example.com" target="_blank">PE</a> ```The Heart of the Xylon Engine - Scans Files and determines if it is malicious```
-    - <a href="http://example.com" target="_blank">Services</a> ```Fully handles Windows services```
-    - <a href="http://example.com" target="_blank">String Extract</a> ```As the name implies - Extract all text string from any File.```
-    - <a href="http://example.com" target="_blank">Watcher</a> ```Process / Registry / File / Devices Monitor. in real time```
-    - <a href="http://example.com" target="_blank">WMI</a> ```Better known as Windows Management Instrumentation - Wrapper for Win32_StartupCommand and Win32Process```
-    - <a href="http://example.com" target="_blank">WebBrowser</a> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Incomplete / Early Stage of Development** ```Obtain Information from Browsers. History / Favorites / Cache. It also includes Extensions and all your information.```
-  - <a href="http://example.com" target="_blank">Startup Manager</a>  ```Process / Registry / File / Devices Monitor. in real time```
+  - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/3.-Index" target="_blank">Index</a>
+  - Core
+    - File
+      - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/4.-FileDirSearcher" target="_blank">FileDirSearcher</a> ```Searchs for files and directories```
+      - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/5.-FileTypeDetective" target="_blank">FileTypeDetective</a> ```Gets information about the binary header at the beginning of the file and Identifies it```
+      - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/6.-InfoFile" target="_blank">InfoFile</a> ```Equivalent to System.IO.FileInfo - It is more Extended and Provides more information ```
+    - Folder
+      - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/7.-InfoDir" target="_blank">InfoDir</a> ```Equivalent to System.IO.DirectoryInfo - It is more Extended and Provides more information ```
+    - Hash
+      - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/8.-FileHashCalculator" target="_blank">FileHashCalculator</a> ```Gets the MD5 hash and all SHA types of a file```
+  - Helper
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/9.--Paths" target="_blank">Paths</a>  ```Get some generic windows paths```
+    - Util ```Some Useful Features```
+  - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/90.-CARO" target="_blank">Malware Naming</a> ```Identifier Generator according to CARO Regulations (Computer Antivirus Research Organization)```
+  - Engine
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/91.-External" target="_blank">External</a>  ```Wrappers for antivirus solutions and other command line tools```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/92.-PE" target="_blank">PE</a> ```The Heart of the Xylon Engine - Scans Files and determines if it is malicious```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/93.-Services" target="_blank">Services</a> ```Fully handles Windows services```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/94.-String-Extractor" target="_blank">String Extract</a> ```As the name implies - Extract all text string from any File.```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/95.-Watcher" target="_blank">Watcher</a> ```Process / Registry / File / Devices Monitor. in real time```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/96.-WMI" target="_blank">WMI</a> ```Better known as Windows Management Instrumentation - Wrapper for Win32_StartupCommand and Win32Process```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/97.-Web-Browsers" target="_blank">WebBrowser</a> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Incomplete / Early Stage of Development** ```Obtain Information from Browsers. History / Favorites / Cache. It also includes Extensions and all your information.```
+  - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/98.-Manager" target="_blank">Startup Manager</a>  ```Gets all the Windows Startup items. (Registry / Folder / TaskSchedulers)```
 - [Reporting issues](#reporting-issues)
-- [Contributors](#Contributors)
+- [Contributor](#contributors)
 
 ### Prerequisites
 
@@ -70,7 +71,7 @@ First clone the repository
 git clone https://github.com/DestroyerDarkNess/XylonV2.git
 ```
 
-Add Xylonv2 to your Project through Nuget `myProjectEmailer.php`
+Add Xylonv2 to your Project through Nuget ` `
 ```
 dotnet install xxx
 ```
