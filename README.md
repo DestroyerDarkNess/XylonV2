@@ -6,11 +6,11 @@
 
 
 ## Introduction
-Antivirus API that provides many features. It's a remastering of the old [Xylon Antivir](hhttps://github.com/DestroyerDarkNess/XylonAntivir) .
+Antivirus API that provides many features. It's a remaster of the old [Xylon Antivir](hhttps://github.com/DestroyerDarkNess/XylonAntivir).
 
-This Version contains many really useful functions.
+This version contains many really useful functions.
 
-Remember to leave your Star to the Project! Thank you!
+Remember to leave a Star to the Project! Thank you!
 
 Thank you for donating. It is helpful to continue to improve the API. <br> <br>
  [![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]
@@ -24,7 +24,7 @@ Thank you for donating. It is helpful to continue to improve the API. <br> <br>
 
 **Table of Contents**
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Documentation may be Incomplete or somewhat Confusing. If you want to collaborate, make a Pull Request**
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Documentation may be Incomplete or somewhat confusing. If you want to collaborate, make a Pull Request**
 
 - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
@@ -58,7 +58,7 @@ Thank you for donating. It is helpful to continue to improve the API. <br> <br>
 
 ### Prerequisites
 
-Make sure to have the following details:
+Make sure to have the following prerequisites:
 * API Secret Key (OPTIONAL) 🔑
 * .NET Framework (v. >= 4.5.2, preferably v. >= 4.6) ✔
 * Your love 💝
@@ -76,7 +76,7 @@ Add Xylonv2 to your Project through Package Manager `https://www.nuget.org/packa
 Install-Package XylonV2 -Version 1.0.0
 ```
 
-You are now ready to go !
+You are now ready to go!
 
 ## Usage
 
