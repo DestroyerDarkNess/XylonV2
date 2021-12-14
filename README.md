@@ -96,7 +96,7 @@ XylonV2.Modules.Initialization(); //Or XylonV2.Modules.Initialization("API Key")
 
 **Be Careful:** You can use the API completely free of charge, without limitations. Sim Embargo if you want an extension / changes / modifications of any kind, you must buy the license and you will be provided with your API Key.
 
-The benefits of acquiring your license will be explained in detail. Take a tour of the [Reference Documentation](http://dev.mailjet.com/email-api/v3/apikey/) to see all available resources.
+The benefits of acquiring your license will be explained in detail. Take a tour of the [Reference Documentation](https://github.com/DestroyerDarkNess/XylonV2/wiki) to see all available resources.
 
 ## Reporting issues
 
