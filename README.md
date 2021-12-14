@@ -6,13 +6,13 @@
 
 
 ## Introduction
-Antivirus API that provides many features. It's a remaster of the old [Xylon Antivir](hhttps://github.com/DestroyerDarkNess/XylonAntivir).
+Antivirus API that provides many features. This is a remaster of the old [Xylon Antivir](hhttps://github.com/DestroyerDarkNess/XylonAntivir).
 
-This version contains many really useful functions.
+This version contains many useful functions.
 
 Remember to leave a Star to the Project! Thank you!
 
-Thank you for donating. It is helpful to continue to improve the API. <br> <br>
+If you love this project, you should donate. It helps to continue to improve the API. <br> <br>
  [![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]
 
 
@@ -24,7 +24,7 @@ Thank you for donating. It is helpful to continue to improve the API. <br> <br>
 
 **Table of Contents**
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Documentation may be Incomplete or somewhat confusing. If you want to collaborate, make a Pull Request**
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Documentation may be incomplete or confusing. If you want to collaborate, make a Pull Request.**
 
 - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
