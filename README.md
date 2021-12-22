@@ -53,6 +53,7 @@ If you love this project, you should donate. It helps to continue to improve the
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/96.-WMI" target="_blank">WMI</a> ```Better known as Windows Management Instrumentation - Wrapper for Win32_StartupCommand and Win32Process```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/97.-Web-Browsers" target="_blank">WebBrowser</a> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Incomplete / Early Stage of Development** ```Obtain Information from Browsers. History / Favorites / Cache. It also includes Extensions and all your information.```
   - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/98.-Manager" target="_blank">Startup Manager</a>  ```Gets all the Windows Startup items. (Registry / Folder / TaskSchedulers)```
+  - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/99.-Registry" target="_blank">Regedit Manager</a>  ```All kinds of functions to manage the windows registry.```
 - [Reporting issues](#reporting-issues)
 - [Contributor](#contributors)
 
@@ -112,5 +113,8 @@ Open an issue [here](https://github.com/DestroyerDarkNess/XylonV2/issues).
 @@ If you want to Contribute to the Project, Talk to me on Discord. :) @@
 ```
 
+## Special thanks :
+- [ElektroStudios](https://github.com/ElektroStudios): For its Snippet FileDirSearcher and other Functions.
+   - Which are part of its [DevCase Framework](https://codecanyon.net/item/elektrokit-class-library-for-net/19260282)
 
 [PM]:https://www.paypal.me/SalvadorKrilewski "PayPal"
