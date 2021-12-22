@@ -50,7 +50,7 @@ If you love this project, you should donate. It helps to continue to improve the
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/93.-Services" target="_blank">Services</a> ```Fully handles Windows services```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/94.-String-Extractor" target="_blank">String Extract</a> ```As the name implies - Extract all text string from any File.```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/95.-Watcher" target="_blank">Watcher</a> ```Process / Registry / File / Devices Monitor. in real time```
-    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/96.-WMI" target="_blank">WMI</a> ```Better known as Windows Management Instrumentation - Wrapper for Win32_StartupCommand and Win32Process```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/96.-WMI" target="_blank">WMI</a> ```Better known as Windows Management Instrumentation - Wrapper for Win32_StartupCommand / Win32Process / Win32_ComputerSystem```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/97.-Web-Browsers" target="_blank">WebBrowser</a> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Incomplete / Early Stage of Development** ```Obtain Information from Browsers. History / Favorites / Cache. It also includes Extensions and all your information.```
   - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/98.-Manager" target="_blank">Startup Manager</a>  ```Gets all the Windows Startup items. (Registry / Folder / TaskSchedulers)```
   - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/99.-Registry" target="_blank">Regedit Manager</a>  ```All kinds of functions to manage the windows registry.```
