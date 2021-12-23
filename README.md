@@ -18,7 +18,7 @@ If you love this project, you should donate. It helps to continue to improve the
 
 ![]()
 
-# [API v2] Xylon Antivir v1.0.0
+# [API v2] Xylon Antivir v1.0.2
 
 [![Build Status](https://travis-ci.org/mailjet/mailjet-apiv3-php-simple.svg?branch=master)](https://travis-ci.org/mailjet/mailjet-apiv3-php-simple)
 
@@ -74,7 +74,7 @@ git clone https://github.com/DestroyerDarkNess/XylonV2.git
 
 Add Xylonv2 to your Project through Package Manager `https://www.nuget.org/packages/XylonV2/ `
 ```
-Install-Package XylonV2 -Version 1.0.0
+Install-Package XylonV2 -Version 1.0.2
 ```
 
 You are now ready to go!
