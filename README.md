@@ -18,7 +18,7 @@ If you love this project, you should donate. It helps to continue to improve the
 
 ![]()
 
-# [API v2] Xylon Antivir v1.0.3
+# [API v2] Xylon Antivir v1.0.4
 
 [![Build Status](https://travis-ci.org/mailjet/mailjet-apiv3-php-simple.svg?branch=master)](https://travis-ci.org/mailjet/mailjet-apiv3-php-simple)
 
@@ -51,6 +51,7 @@ If you love this project, you should donate. It helps to continue to improve the
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/94.-String-Extractor" target="_blank">String Extract</a> ```As the name implies - Extract all text string from any File.```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/95.-Watcher" target="_blank">Watcher</a> ```Process / Registry / File / Devices Monitor. in real time```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/96.-WMI" target="_blank">WMI</a> ```Better known as Windows Management Instrumentation - Wrapper for Win32_StartupCommand / Win32Process / Win32_ComputerSystem```
+    - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/991.-Pinvoke" target="_blank">Pinvoke</a> ```Get all the Pinvokes of an Executable/Assembly.```
     - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/97.-Web-Browsers" target="_blank">WebBrowser</a> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Incomplete / Early Stage of Development** ```Obtain Information from Browsers. History / Favorites / Cache. It also includes Extensions and all your information.```
   - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/98.-Manager" target="_blank">Startup Manager</a>  ```Gets all the Windows Startup items. (Registry / Folder / TaskSchedulers)```
   - <a href="https://github.com/DestroyerDarkNess/XylonV2/wiki/99.-Registry" target="_blank">Regedit Manager</a>  ```All kinds of functions to manage the windows registry.```
@@ -61,7 +62,7 @@ If you love this project, you should donate. It helps to continue to improve the
 
 Make sure to have the following prerequisites:
 * API Secret Key (OPTIONAL) 🔑
-* .NET Framework (v. >= 4.5.2, preferably v. >= 4.6) ✔
+* .NET Framework (v. >= 4.6) ✔
 * Your love 💝
 
 
@@ -74,7 +75,7 @@ git clone https://github.com/DestroyerDarkNess/XylonV2.git
 
 Add Xylonv2 to your Project through Package Manager `https://www.nuget.org/packages/XylonV2/ `
 ```
-Install-Package XylonV2 -Version 1.0.3
+Install-Package XylonV2 -Version 1.0.4
 ```
 
 You are now ready to go!
