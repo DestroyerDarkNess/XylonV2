@@ -12,7 +12,7 @@ This version contains many useful functions.
 
 Remember to leave a Star to the Project! Thank you!
 
-If you love this project, you should donate. It helps to continue to improve the API. <br> <br>
+If you like this project, you can consider making a donation. Help us continue to improve the API. <br> <br>
  [![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM]
 
 
