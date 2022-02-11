@@ -76,7 +76,7 @@ git clone https://github.com/DestroyerDarkNess/XylonV2.git
 
 Add Xylonv2 to your Project through Package Manager `https://www.nuget.org/packages/XylonV2/ `
 ```
-Install-Package XylonV2 -Version 1.0.4
+Install-Package XylonV2 -Version 1.0.5
 ```
 
 You are now ready to go!
