@@ -18,7 +18,7 @@ If you like this project, you can consider making a donation. Help us continue t
 
 ![]()
 
-# [API v2] Xylon Antivir v1.0.4
+# [API v2] Xylon Antivir v1.0.5
 
 [![Build Status](https://travis-ci.org/mailjet/mailjet-apiv3-php-simple.svg?branch=master)](https://travis-ci.org/mailjet/mailjet-apiv3-php-simple)
 
