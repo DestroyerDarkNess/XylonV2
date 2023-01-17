@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EA75B6F-2F6D-49B3-9769-5219602BD633}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>XylonV2</RootNamespace>
+    <AssemblyName>XylonV2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>XylonV2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>XylonV2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dnlib, Version=3.4.0.0, Culture=neutral, PublicKeyToken=50e96378b6e77999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\dnlib.3.4.0\lib\net45\dnlib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.10.1.0, Culture=neutral, PublicKeyToken=e25603a88b3aa7da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\TaskScheduler.2.10.1\lib\net452\Microsoft.Win32.TaskScheduler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComputerInfo\Define\WMIQuery.vb" />
+    <Compile Include="ComputerInfo\Graph\CPUGraph.vb" />
+    <Compile Include="ComputerInfo\Graph\RAMGraph.vb" />
+    <Compile Include="ComputerInfo\WMI\CPU.vb" />
+    <Compile Include="ComputerInfo\WMI\GPU.vb" />
+    <Compile Include="ComputerInfo\WMI\OS.vb" />
+    <Compile Include="ComputerInfo\WMI\RAM.vb" />
+    <Compile Include="Core\CheckAPI.vb" />
+    <Compile Include="Core\Extension.vb" />
+    <Compile Include="Core\File\FileDirSearcher.vb" />
+    <Compile Include="Core\File\FileTypeDetective.vb" />
+    <Compile Include="Core\File\InfoDir.vb" />
+    <Compile Include="Core\File\InfoFile.vb" />
+    <Compile Include="Core\Hash\FileHashCalculator.vb" />
+    <Compile Include="Core\Helper\Paths.vb" />
+    <Compile Include="Core\Helper\PrivilegesManager.vb" />
+    <Compile Include="Core\Helper\Util.vb" />
+    <Compile Include="Core\Modules.vb" />
+    <Compile Include="Core\VirH\VirNames.vb" />
+    <Compile Include="Core\WindowsDetection.vb" />
+    <Compile Include="Engine\External\Avast\AvastScanner.vb" />
+    <Compile Include="Engine\External\AVG\AvgScanner.vb" />
+    <Compile Include="Engine\External\Core\IScanner.vb" />
+    <Compile Include="Engine\External\Core\ScanResult.vb" />
+    <Compile Include="Engine\External\EsetScanner\EsetScanner.vb" />
+    <Compile Include="Engine\External\ResHacker.vb" />
+    <Compile Include="Engine\External\Tester.Designer.vb">
+      <DependentUpon>Tester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\External\Tester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\External\WindowsDefender\WindowsDefenderScanner.vb" />
+    <Compile Include="Engine\jsontest.vb" />
+    <Compile Include="Engine\PE\Analysis.vb" />
+    <Compile Include="Engine\PE\AVEnums.vb" />
+    <Compile Include="Engine\PE\Binary\PEChecker.vb" />
+    <Compile Include="Engine\PE\Net\Core\MwString.vb" />
+    <Compile Include="Engine\PE\Net\NetAnalysis.vb" />
+    <Compile Include="Engine\PE\PETester.Designer.vb">
+      <DependentUpon>PETester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\PE\PETester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Pinvoke\Pinvokes.vb" />
+    <Compile Include="Engine\Services\ServiceUtils.vb" />
+    <Compile Include="Engine\SignInfo\SignInfo.vb" />
+    <Compile Include="Engine\StringExtract\Extractor.vb" />
+    <Compile Include="Engine\StringExtract\Globals.vb" />
+    <Compile Include="Engine\StringExtract\StringExtractorTester.Designer.vb">
+      <DependentUpon>StringExtractorTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\StringExtract\StringExtractorTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\System\Windows.vb" />
+    <Compile Include="Engine\System\SystemTester.Designer.vb">
+      <DependentUpon>SystemTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\System\SystemTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Watcher\AVs\AVTester.Designer.vb">
+      <DependentUpon>AVTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Watcher\AVs\AVTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Watcher\AVs\DefenderWatcher.vb" />
+    <Compile Include="Engine\Watcher\File\Core\FileWatcherExtended.vb" />
+    <Compile Include="Engine\Watcher\File\FileWatcherTester.Designer.vb">
+      <DependentUpon>FileWatcherTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Watcher\File\FileWatcherTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Watcher\Pendrive\Core\DriveWatcher.vb" />
+    <Compile Include="Engine\Watcher\Pendrive\TesterPendrive.Designer.vb">
+      <DependentUpon>TesterPendrive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Watcher\Pendrive\TesterPendrive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Watcher\Process\Core\ProcessWatcher.vb" />
+    <Compile Include="Engine\Watcher\Process\ProcessTester.Designer.vb">
+      <DependentUpon>ProcessTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Watcher\Process\ProcessTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Registry\RegEdit.vb" />
+    <Compile Include="Engine\Watcher\Regedit\Core\RegeditWatcher.vb" />
+    <Compile Include="Engine\Watcher\Regedit\Core\RegistryMonitor.vb" />
+    <Compile Include="Engine\Watcher\Regedit\RegeditTester.Designer.vb">
+      <DependentUpon>RegeditTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Watcher\Regedit\RegeditTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\Watcher\Regedit\RegistryScan.vb" />
+    <Compile Include="Engine\WebBrowser\Chrome.vb" />
+    <Compile Include="Engine\WebBrowser\ChromeTester.Designer.vb">
+      <DependentUpon>ChromeTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\WebBrowser\ChromeTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engine\WebBrowser\Edge.vb" />
+    <Compile Include="Engine\WebBrowser\ZeroitChromeTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Engine\WMI\ManagementUtils.vb" />
+    <Compile Include="Engine\WMI\Win32_Process.vb" />
+    <Compile Include="Engine\WMI\Win32_ComputerSystem.vb" />
+    <Compile Include="Engine\WMI\Win32_StartupCommand.vb" />
+    <Compile Include="Engine\WMI\WMI_Tester.Designer.vb">
+      <DependentUpon>WMI_Tester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\WMI\WMI_Tester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AlphaBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Notify.Designer.vb">
+      <DependentUpon>Notify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Notify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="StartupManager\Models\Enums.vb" />
+    <Compile Include="StartupManager\Models\StartupList.vb" />
+    <Compile Include="StartupManager\Models\StartupProgram.vb" />
+    <Compile Include="StartupManager\Models\StartupState.vb" />
+    <Compile Include="StartupManager\Services\Directories\DirectoryService.vb" />
+    <Compile Include="StartupManager\Services\Identity\WindowsIdentityService.vb" />
+    <Compile Include="StartupManager\Services\Registries\RegistryService.vb" />
+    <Compile Include="StartupManager\Services\Schedulers\TaskSchedulerService.vb" />
+    <Compile Include="StartupManager\SM_Tester.Designer.vb">
+      <DependentUpon>SM_Tester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartupManager\SM_Tester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Engine\External\Tester.resx">
+      <DependentUpon>Tester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\PE\PETester.resx">
+      <DependentUpon>PETester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\StringExtract\StringExtractorTester.resx">
+      <DependentUpon>StringExtractorTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\System\SystemTester.resx">
+      <DependentUpon>SystemTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\Watcher\AVs\AVTester.resx">
+      <DependentUpon>AVTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\Watcher\File\FileWatcherTester.resx">
+      <DependentUpon>FileWatcherTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\Watcher\Pendrive\TesterPendrive.resx">
+      <DependentUpon>TesterPendrive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\Watcher\Process\ProcessTester.resx">
+      <DependentUpon>ProcessTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\Watcher\Regedit\RegeditTester.resx">
+      <DependentUpon>RegeditTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\WebBrowser\ChromeTester.resx">
+      <DependentUpon>ChromeTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engine\WMI\WMI_Tester.resx">
+      <DependentUpon>WMI_Tester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notify.resx">
+      <DependentUpon>Notify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupManager\SM_Tester.resx">
+      <DependentUpon>SM_Tester.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dnlib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Microsoft.Win32.TaskScheduler.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
